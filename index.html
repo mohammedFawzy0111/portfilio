@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awsome css -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>portfilio</title>
+</head>
+
+<body onload="load()">
+
+    <!--start navbar-->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+            <span class="logo-sym">&lt;</span><p class="logo-text"> Portfolio </p><span class="logo-sym">/&gt;</span>
+        </div>
+
+        <ul class="links">
+            <li class="link active"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#services">Services</a></li>
+            <li class="link"><a href="#my-work">My work</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!--end navbar-->
+
+    <!--start home-->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="home-content">
+            <p class="wellcome-text">I am Mohammed Fawzy</p>
+            <span class="my-titles"></span>
+        </div>
+      </div>
+    </section>
+    <!--end home-->
+
+    <!--start about-->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="about-content">
+            <div class="col-1">
+
+              <div class="profile">
+                <div class="profile-pic">
+                  <img src="img/profile.jpg" alt="profile">
+                </div>
+                <div class="info">
+                  <p class="name">Name: <span>Mohammed Fawzy</span></p>
+                  <p>Profile: <span>Full-stack developer</span></p>
+                  <p>E-mail: <span>example@example.com</span></p>
+                  <p>Phone: <span>0123456789</span></p>
+                </div>
+              </div>
+
+              <div class="skills">
+                <h3>Skills</h3>
+
+                <div class="skill">
+                  <p class="skill-name">HTML</p>
+                  <div class="progress-container">
+                    <span class="progress" data-value="90"></span>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p class="skill-name">CSS</p>
+                  <div class="progress-container">
+                    <span class="progress" data-value="75"></span>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p class="skill-name">JavaScript</p>
+                  <div class="progress-container">
+                    <span class="progress" data-value="80"></span>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p class="skill-name">Node JS</p>
+                  <div class="progress-container">
+                    <span class="progress" data-value="60"></span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-2">
+              <h3>About me</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--end about-->
+
+    <!-- start services -->
+    <section id="services" class="services section">
+      <div class="container">
+        <h1>Services</h1>
+
+        <div class="cards">
+
+          <div class="card">
+            <div class="icon-container">
+              <i class="icon fa-solid fa-desktop"></i>
+            </div>
+            <div class="card-text">
+              <h3>web Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-container">
+              <i class="icon fa-solid fa-terminal"></i>
+            </div>
+            <div class="card-text">
+              <h3>web Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-container">
+              <i class="icon fa-solid fa-mobile-screen"></i>
+            </div>
+            <div class="card-text">
+              <h3>Responsive Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End services -->
+
+    <!-- start statics -->
+    <section id="statics" class="statics section">
+      <div class="container">
+        <div class="stat">
+          <div class="icon"><i class="fa-solid fa-check"></i></div>
+          <span class="num">53</span>
+          <p>WORKS COMPLETED</p>
+        </div>
+        <div class="stat">
+          <div class="icon"><i class="fa-solid fa-calendar"></i></div>
+          <span class="num">3</span>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+        <div class="stat">
+          <div class="icon"><i class="fa-solid fa-users"></i></div>
+          <span class="num">27</span>
+          <p>TOTAL CLIENTS</p>
+        </div>
+      </div>
+    </section>
+    <!-- end statics -->
+
+    <!-- start my work -->
+    <section id='my-work' class="work section">
+      <div class="container">
+        <h1>Projects</h1>
+
+        <div class="cards">
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-1.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-2.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-3.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-4.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-1.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="pic">
+              <img src="img\work-2.jpg" alt="project">
+            </div>
+            <div class="describtion">
+              <h3>title</h3>
+              <p>web design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end my work -->
+
+    <!-- start conatct me -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact-content">
+          <div class="col-1">
+            <h1>Send me a Message</h1>
+            <form class="form" action="" method="post">
+              <input type="text" name="name" placeholder="Name">
+              <input type="email" name="email" placeholder="E-mail">
+              <input type="text" name="subject" placeholder="Subject">
+              <textarea name="message" placeholder="Message"></textarea>
+              <input type="submit" name="send" value="Send Message">
+            </form>
+          </div>
+          <div class="col-2">
+            <h1>Get in touch</h1>
+            <p>feel free to contact me in my socials at any time.</p>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+              <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End conatct me -->
+    <!-- start footer -->
+    <footer class="section">
+      <p>&copy; Mohammed Fawzy 2023</p>
+    </footer>
+    <!-- end footer -->
+    <!-- font awsome js -->
+    <script src="js/all.min.js">
+
+    </script>
+    <!--typed js lib-->
+    <script src="js/typed.js"></script>
+    <!-- my script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
